@@ -19,8 +19,8 @@ module FavouriteProjectsApplicationHelperPatch
       all = link_to(l(:label_project_all), projects_path(:jump => current_menu_item), :class => (@project.nil? && controller.class.main_menu ? 'selected' : nil))
       content = content_tag('div',
             content_tag('div', q, :class => 'quick-search') +
-            content_tag('div', render_projects_for_jump_box(favourites, @project), :class => 'drdn-items projects selection') +
-            content_tag('div', render_projects_for_jump_box(projects, @project), :class => 'drdn-items projects selection') +
+            content_tag('div', render_projects_for_jump_box(favourites, selected: @project), :class => 'drdn-items projects selection') +
+            content_tag('div', render_projects_for_jump_box(projects, selected: @project), :class => 'drdn-items projects selection') +
             content_tag('div', all, :class => 'drdn-items all-projects selection'),
           :class => 'drdn-content'
         )
