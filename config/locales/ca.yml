@@ -1,0 +1,32 @@
+ca:
+  favourite_projects_box: Projectes favorits
+  favourite_projects:
+        controllers:
+            add_project_notice: Projecte favorit afegit.
+            user_settings_override_notice:
+                update: Els paràmetres personalitzats de visualització s'han actualitzat.
+                reset: Reiniciar els paràmetres de visualització als predeterminats.
+                error: Alguna cosa ha anat malament actulitzant els paràmetres de visualització
+
+        detailed:
+            header_go_to_module: Anar al mòdul
+
+        chosen_jump_box:
+            favourite_group: Favorits
+            other_group: Altres
+
+        views:
+            index:
+                title: Gestió dels projectes favorits
+                customise_favourite_project_display: Personalitza el format de visualització dels Projectes Favorits
+                customise_favourite_project_display_disabled: Aquestes opcions han sigut deshabilitades per l'administrador del Redmine. S'està aplicant la configuració global.
+                reset_to_defaults_button: Restaurar configuració predeterminada
+                favourite_projects: Projectes favorits
+                available_projects: Projectes disponibles
+                header_projects_cols: Nom projecte
+                add_project: Afegir aquest projecte
+            settings:
+                show_detailed_project_view: Mostrar una vista tabular de projectes en 'La meva pàgina' amb enllaços a mòduls
+                modify_project_jump_list: Mostrar favorits a sobre de la llista desplegable de 'Anar al projecte'
+                modify_top_menu: Mostrar favorits en el menú principal
+                allow_user_override: Permet als usuaris sobreescriure aquesta configuració
